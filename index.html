@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Cash Register</title>
+</head>
+<body>
+
+    <nav class="navigaltion">
+        <p>CR</p>
+    </nav>
+
+    <header class="hero">
+        <p>Cash Register</p>
+    </header>
+
+    <div class="primary-container">
+        <div class="primary-left">
+            <img src="./img/primary-img.svg" alt="image asset">
+        </div>
+
+        <div class="primary-right">
+            <div class="primary-input-bill">
+                <input type="text" placeholder="Please enter the bill amount" />
+                <button class="primary-btn-next">Next</button>
+            </div>
+
+            <div class="primary-input-cash">
+                <input type="text" placeholder="Please enter the cash given" />
+                <button class="primary-btn-next">Get Change</button>
+            </div>
+
+            <div class="primary-denomination">
+                <div class="denomination">Denomination</div>
+                <div id="primary-output">
+                    <table>
+                        <tr>
+                            <th>Notes</td>
+                            <td class="note"></td>
+                            <td class="note"></td>
+                            <td class="note"></td>
+                            <td class="note"></td>
+                            <td class="note"></td>
+                            <td class="note"></td>
+                            <td class="note"></td>
+                        </tr>
+                        <tr>
+                            <th>Notes</td>
+                            <td>2000</td>
+                            <td>500</td>
+                            <td>100</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>1</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div id="footer-header">Your personal cash register.</div>
+            <p>Use this as your very own cash register! Just input the bill along with the cash paid and it will show you what to return!</p>
+            
+            <div id="footer-socials">
+                <ul class="footer-socials-list">
+                    <li>
+                        <a class="footer-links" href="https://www.github.com"><i class="fab fa-github fa-lg social-icn"></i></a>
+                    </li>
+                    <li>
+                        <a class="footer-links" href="https://www.linkedin.com"><i class="fab fa-linkedin fa-lg social-icn"></i></a>
+                    </li>
+                    <li>
+                        <a class="footer-links" href="https://www.instagram.com"><i class="fab fa-instagram-square fa-lg social-icn"></i></a>
+                    </li>
+                </ul>
+                
+            </div>
+    
+            <p id="footer-cc-text"><i class="far fa-copyright"></i> | 2021 Rights reserved</p>
+    
+        </footer>
+        
+        <script src="app.js" type="text/javascript"></script>
+
+    </div>
+</body>
+</html>
