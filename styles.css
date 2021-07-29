@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-bg-color: #F9FAFB;
+    --primary-shadow-color: #FECACA;
+    --primary-btn-color: #EF4444;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+}
+
+.navigation {
+    /* width: 100%; */
+    padding: 1rem;
+    box-shadow: 0pt 0pt 25pt var(--primary-shadow-color);
+    font-size: large;
+    font-weight: bolder;
+}
+
+.hero {
+    margin: 2.5rem auto;
+    text-align: center;
+    font-size: x-large;
+}
+
+.hero p {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.primary-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.primary-left, .primary-right {
+    float: left;
+    width: 50%;
+}
+
+.primary-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* .primary-left {
+    background: aqua;
+}
+
+.primary-right {
+    background: blueviolet;
+} */
+
+.primary-right {
+    margin-top: 8%;
+}
+
+.primary-input-bill input {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 2rem;
+    width: 40%;
+    border-color: transparent;
+    border-radius: 0.5rem;
+    box-shadow: 3pt 3pt 20pt var(--primary-shadow-color);
+    font-size: 1em;
+}
+
+.primary-btn-next {
+    display: block;
+    margin: 1rem auto;
+    color: white;
+    background: var(--primary-btn-color);
+    border-color: transparent;
+    border-radius: 0.5rem 0 0.5rem 0;
+    width: 25%;
+    padding: 0.5rem;
+    font-size: 1em;
+} 
+
+.primary-input-cash input {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 2rem;
+    width: 40%;
+    border-color: transparent;
+    border-radius: 0.5rem;
+    box-shadow: 3pt 3pt 20pt var(--primary-shadow-color);
+    font-size: 1em;
+}
+
+.primary-denomination {
+    display: block;
+    margin: 1rem auto;
+    font-size: large;
+}
+
+.primary-output table, th, td{
+    padding: 0.2rem;
+    /* color: var(--dark-green);
+    background-color:var(--faint-green); */
+    border: 2px solid var(--primary-btn-color);
+    border-collapse: collapse;
+    margin: 1rem auto;
+}
+
+.primary-output td {
+    width: 2rem;
+}
+
+.footer {
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+#footer-header {
+    font-size: larger;
+    display: block;
+    margin: 0.5rem auto;
+}
+
+#footer-socials {
+    margin: 0.5rem auto;
+    padding: auto 0.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+#footer-socials .footer-socials-list li{
+    display: inline;
+    list-style-type: none;
+    margin: auto 0.9rem;
+}
+
+#footer-socials .footer-socials-list li .social-icn{
+    color: black;
+}
+
+#footer-cc-text {
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
