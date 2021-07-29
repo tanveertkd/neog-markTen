@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +13,7 @@
 
 body {
     background-color: var(--primary-bg-color);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navigation {
@@ -83,6 +86,18 @@ body {
 }
 
 .primary-btn-next {
+    display: block;
+    margin: 1rem auto;
+    color: white;
+    background: var(--primary-btn-color);
+    border-color: transparent;
+    border-radius: 0.5rem 0 0.5rem 0;
+    width: 25%;
+    padding: 0.5rem;
+    font-size: 1em;
+} 
+
+.primary-btn-change {
     display: block;
     margin: 1rem auto;
     color: white;
