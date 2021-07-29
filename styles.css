@@ -19,6 +19,8 @@ body {
     box-shadow: 0pt 0pt 25pt var(--primary-shadow-color);
     font-size: large;
     font-weight: bolder;
+    background-color: var(--primary-btn-color);
+    color: var(--primary-bg-color);
 }
 
 .hero {
@@ -30,6 +32,10 @@ body {
 .hero p {
     font-size: x-large;
     font-weight: bolder;
+}
+
+#hero-span {
+    color: var(--primary-btn-color);
 }
 
 .primary-container {
@@ -56,6 +62,10 @@ body {
 .primary-right {
     background: blueviolet;
 } */
+
+.primary-left img {
+    max-width: 80%;
+}
 
 .primary-right {
     margin-top: 8%;
@@ -115,11 +125,16 @@ body {
 }
 
 .footer {
+    position: absolute;
+    bottom: 0;
     display: block;
-    margin: auto;
+    margin: 2rem auto auto auto;
     width: 100%;
     text-align: center;
     padding-bottom: 0.5rem;
+    padding-top: 00.5rem;
+    background-color: var(--primary-btn-color);
+    color: var(--primary-bg-color);
 }
 
 #footer-header {
@@ -144,7 +159,7 @@ ul {
 }
 
 #footer-socials .footer-socials-list li .social-icn{
-    color: black;
+    color: var(--primary-bg-color);
 }
 
 #footer-cc-text {
